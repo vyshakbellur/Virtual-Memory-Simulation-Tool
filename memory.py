@@ -43,6 +43,7 @@ class mainMemory:
 		return mainMemory.memory.index(lf)
 			
 if __name__ == '__main__':
+	#Read the command line inputs
 	data = sys.argv[1]
 	algorithm = sys.argv[2]
 	debug = sys.argv[3]
